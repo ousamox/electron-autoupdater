@@ -1,12 +1,12 @@
 {
   "name": "auto-updater",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder build --mac --win --publish never",
-    "deploy": "electron-builder build --mac --win --publish always"
+    "build": "electron-builder build --mac --publish never",
+    "deploy": "electron-builder build --mac --publish always"
   },
   "author": "",
   "license": "ISC",
@@ -18,7 +18,7 @@
     "electron-updater": "^4.2.0"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/ousamox/electron-autoupdater.git"
+    "type": "git",
+    "url": "https://github.com/ousamox/electron-autoupdater.git"
   }
 }
